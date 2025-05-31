@@ -11,16 +11,18 @@
 		<parameter name="browser" value="chrome" />
 		<groups>
 			<run>
-				<include name="sanity" />
-				<include name="regression" />
-				<!-- <include name="master" /> -->
+				<include name="Master" />
+				<include name="Sanity"/>
+				<include name="Regression"/>
 				<!-- <exclude name="" /> -->
 			</run>
 		</groups>
 		<classes>
 			<class name="testCases.TC_001_AccountRegistrationTest" />
 			<class name="testCases.TC_002_LoginTest" />
-			<!-- <class name="testCases.TC_003_LoginDDT"/> -->
+			<class name="testCases.TC_004_SearchProductTest" />
+			<class name="testCases.TC_005_AddToCartPageTest" />
+			<!--<class name="testCases.TC_006_EndToEndTest" /> -->
 		</classes>
 	</test>
 	<!-- Test -->

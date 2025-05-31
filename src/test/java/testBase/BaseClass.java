@@ -53,16 +53,18 @@ public class BaseClass {
 			DesiredCapabilities capabilities=new DesiredCapabilities();
 			
 			//os
-			if(os.equalsIgnoreCase("Linux"))
+			if(os.equalsIgnoreCase("windows"))
 			{
-				capabilities.setPlatform(Platform.WIN11); //LINUX
+				capabilities.setPlatform(Platform.WIN11); 
 			}
 			else if (os.equalsIgnoreCase("mac"))
 			{
 				capabilities.setPlatform(Platform.MAC);
 			}
-			else if (os.equalsIgnoreCase("windows") || os.equalsIgnoreCase("win11")) {
-		        capabilities.setPlatform(Platform.WIN11);  // ✅ Only if you're targeting Windows 11 specifically
+			else if(os.equalsIgnoreCase("linux"))
+			{
+				capabilities.setPlatform(Platform.LINUX);
+				
 			}
 			else
 			{
@@ -95,17 +97,7 @@ public class BaseClass {
 			return;
 			} 
 		}
-		
-	/*	
-		//launching browser based on condition
-		switch(br.toLowerCase())       
-		{
-		case "chrome": driver=new ChromeDriver(); break;
-		case "edge": driver=new EdgeDriver(); break;
-		default: System.out.println("No matching browser..");
-					return;
-		}
-	*/	
+	
 		  	
 		//driver=new ChromeDriver();
 		driver.manage().deleteAllCookies();
@@ -120,7 +112,7 @@ public class BaseClass {
 
 		public void tearDown()
 		{
-			driver.close();
+			driver.quit();
 		}
 	
 	

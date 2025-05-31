@@ -5,22 +5,26 @@
 	<listeners>
 		<listener class-name="utilities.ExtentReportManager" />
 	</listeners>
-	
+
 	<test name="Linux-Chrome">
 		<parameter name="os" value="Linux" />
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="testCases.TC_001_AccountRegistrationTest" />
 			<class name="testCases.TC_002_LoginTest" />
+			<class name="testCases.TC_004_SearchProductTest" />
+			<class name="testCases.TC_005_AddToCartPageTest" />
 		</classes>
-	</test> 
-	
+	</test>
+
 	<test name="Linux-Firefox">
 		<parameter name="os" value="Linux" />
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="testCases.TC_001_AccountRegistrationTest" />
 			<class name="testCases.TC_002_LoginTest" />
+			<class name="testCases.TC_004_SearchProductTest" />
+			<class name="testCases.TC_005_AddToCartPageTest" />
 		</classes>
 	</test>
 </suite>

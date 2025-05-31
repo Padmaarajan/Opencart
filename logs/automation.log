@@ -1,42 +1,68 @@
-2025-05-28 00:21:42 DEBUG TestNG:82 - suiteXmlPath: "D:\JAVA\Java Saves\Opencart\master.xml"
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ================ SORTING
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ================ SORTING
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ================ SORTING
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ================ SORTING
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ADDING NODE TC_001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@ab7395e] 223251065
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ADDING NODE TC_002_LoginTest.verify_login()[pri:0, instance:testCases.TC_002_LoginTest@4b40f651] 522239642
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ================ SORTING
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2025-05-28 00:21:42 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2025-05-28 00:21:47 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-05-28 00:21:47 DEBUG TC_001_AccountRegistrationTest:16 - This is a debug log message
-2025-05-28 00:21:48 INFO  TC_001_AccountRegistrationTest:22 - Clicked on MyAccount Link.. 
-2025-05-28 00:21:48 INFO  TC_001_AccountRegistrationTest:25 - Clicked on Register Link.. 
-2025-05-28 00:21:48 INFO  TC_001_AccountRegistrationTest:29 - Providing customer details...
-2025-05-28 00:21:50 INFO  TC_001_AccountRegistrationTest:43 - Validating expected message..
-2025-05-28 00:21:50 INFO  TC_001_AccountRegistrationTest:48 - Test passed
-2025-05-28 00:21:50 INFO  TC_001_AccountRegistrationTest:57 - ***** Finished TC001_AccountRegistrationTest *****
-2025-05-28 00:21:53 INFO  TC_002_LoginTest:17 - **** Starting TC_002_LoginTest  ****
-2025-05-28 00:21:53 DEBUG TC_002_LoginTest:18 - capturing application debug logs....
-2025-05-28 00:21:53 INFO  TC_002_LoginTest:25 - clicked on myaccount link on the home page..
-2025-05-28 00:21:54 INFO  TC_002_LoginTest:27 - clicked on login link under myaccount..
-2025-05-28 00:21:54 INFO  TC_002_LoginTest:31 - Entering valid email and password..
-2025-05-28 00:21:54 INFO  TC_002_LoginTest:35 - clicked on ligin button..
-2025-05-28 00:21:55 INFO  TC_002_LoginTest:49 - **** Finished TC_002_LoginTest  ****
+2025-05-31 23:55:32 DEBUG TestNG:82 - suiteXmlPath: "D:\JAVA\Java Saves\Opencart\master.xml"
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ================ SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ================ SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ================ SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ================ SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ================ SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ================ SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ================ SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ================ SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ADDING NODE TC_001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5b057c8c] 1570557351
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ADDING NODE TC_002_LoginTest.verify_login()[pri:0, instance:testCases.TC_002_LoginTest@30f5a68a] 81096403
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ADDING NODE TC_004_SearchProductTest.verify_productSearch()[pri:0, instance:testCases.TC_004_SearchProductTest@1e1d3956] -1720155475
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ADDING NODE TC_005_AddToCartPageTest.verify_addToCart()[pri:0, instance:testCases.TC_005_AddToCartPageTest@4f2c9ba6] 2109124177
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ================ SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-05-31 23:55:32 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-05-31 23:55:32 INFO  Utils:112 - [TestNG] Running:
+  D:\JAVA\Java Saves\Opencart\master.xml
+
+2025-05-31 23:55:38 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-05-31 23:55:38 DEBUG TC_001_AccountRegistrationTest:16 - This is a debug log message
+2025-05-31 23:55:38 INFO  TC_001_AccountRegistrationTest:22 - Clicked on MyAccount Link.. 
+2025-05-31 23:55:39 INFO  TC_001_AccountRegistrationTest:25 - Clicked on Register Link.. 
+2025-05-31 23:55:39 INFO  TC_001_AccountRegistrationTest:29 - Providing customer details...
+2025-05-31 23:55:40 INFO  TC_001_AccountRegistrationTest:43 - Validating expected message..
+2025-05-31 23:55:40 INFO  TC_001_AccountRegistrationTest:48 - Test passed
+2025-05-31 23:55:40 INFO  TC_001_AccountRegistrationTest:57 - ***** Finished TC001_AccountRegistrationTest *****
+2025-05-31 23:55:43 INFO  TC_002_LoginTest:17 - **** Starting TC_002_LoginTest  ****
+2025-05-31 23:55:43 DEBUG TC_002_LoginTest:18 - capturing application debug logs....
+2025-05-31 23:55:44 INFO  TC_002_LoginTest:25 - clicked on myaccount link on the home page..
+2025-05-31 23:55:45 INFO  TC_002_LoginTest:27 - clicked on login link under myaccount..
+2025-05-31 23:55:45 INFO  TC_002_LoginTest:31 - Entering valid email and password..
+2025-05-31 23:55:45 INFO  TC_002_LoginTest:35 - clicked on ligin button..
+2025-05-31 23:55:45 INFO  TC_002_LoginTest:50 - **** Finished TC_002_LoginTest  ****
+2025-05-31 23:55:49 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
