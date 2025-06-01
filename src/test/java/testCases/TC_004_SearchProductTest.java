@@ -9,8 +9,8 @@ import testBase.BaseClass;
 
 public class TC_004_SearchProductTest extends BaseClass {
 
-	@Test(groups= {"Master"})  
-	public void verify_productSearch() throws InterruptedException {
+	@Test(groups= {"Master"})
+	public void verify_pruductSearch() throws InterruptedException {
 		logger.info(" Starting TC_004_SearchProductTest ");
 
 		try {
@@ -26,8 +26,9 @@ public class TC_004_SearchProductTest extends BaseClass {
 			sp.isProductExist("MacBook");
 
 			Assert.assertEquals(sp.isProductExist("MacBook"),true);
- 
+
 		} catch (Exception e) {
+			logger.error("Test failed due to exception: " + e.getMessage());
 			Assert.fail();
 		}
 
@@ -35,4 +36,3 @@ public class TC_004_SearchProductTest extends BaseClass {
 
 	}
 }
-  
